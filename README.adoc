@@ -1,0 +1,61 @@
+= About
+
+== Bio
+
+. 3rd-year Software Engineering student at *BSUIR* (Belarusian State University of Informatics and Radioelectronics).  
+. Using **Linux as a daily driver for 6+ years** (Arch, Gentoo, NixOS, Debian, Ubuntu, Fedora and more)
+.. Wrote *custom packages* for most of them.
+.. Comfy dots at https://github.com/nadevko/dotfiles[dotfiles repo]
+
+== Some useless tech badges
+
+:badge-style: flat
+:badge-height: 22
+
+image:https://img.shields.io/badge/Python-3776AB.svg?style={badge-style}&logo=python&logoColor=white[Python, height={badge-height}]
+image:https://img.shields.io/badge/Django-092E20.svg?style={badge-style}&logo=django&logoColor=white[Django, height={badge-height}]
+image:https://img.shields.io/badge/Flask-000000.svg?style={badge-style}&logo=flask&logoColor=white[Flask, height={badge-height}]
+image:https://img.shields.io/badge/OpenJDK-007396.svg?style={badge-style}&logo=openjdk&logoColor=white[Java, height={badge-height}]
+image:https://img.shields.io/badge/TypeScript-3178C6.svg?style={badge-style}&logo=typescript&logoColor=white[TypeScript, height={badge-height}]
+image:https://img.shields.io/badge/PostgreSQL-4169E1.svg?style={badge-style}&logo=postgresql&logoColor=white[PostgreSQL, height={badge-height}]
+image:https://img.shields.io/badge/SQLite-003B57.svg?style={badge-style}&logo=sqlite&logoColor=white[SQLite, height={badge-height}]
+image:https://img.shields.io/badge/Git-F05032.svg?style={badge-style}&logo=git&logoColor=white[Git, height={badge-height}]
+image:https://img.shields.io/badge/Docker-2496ED.svg?style={badge-style}&logo=docker&logoColor=white[Docker, height={badge-height}]
+image:https://img.shields.io/badge/C%2B%2B-00599C.svg?style={badge-style}&logo=cplusplus&logoColor=white[C%2B%2B, height={badge-height}]
+image:https://img.shields.io/badge/C-00599C.svg?style={badge-style}&logo=c&logoColor=white[C, height={badge-height}]
+image:https://img.shields.io/badge/C%23-239120.svg?style={badge-style}&logo=dotnet&logoColor=white[C#, height={badge-height}]
+image:https://img.shields.io/badge/F%23-239120.svg?style={badge-style}&logo=dotnet&logoColor=white[F#, height={badge-height}]
+image:https://img.shields.io/badge/Kotlin-7F52FF.svg?style={badge-style}&logo=kotlin&logoColor=white[Kotlin, height={badge-height}]
+image:https://img.shields.io/badge/Swift-FA7343.svg?style={badge-style}&logo=swift&logoColor=white[Swift, height={badge-height}]
+image:https://img.shields.io/badge/Bash-4EAA25.svg?style={badge-style}&logo=gnubash&logoColor=white[Bash, height={badge-height}]
+image:https://img.shields.io/badge/Kubernetes-326CE5.svg?style={badge-style}&logo=kubernetes&logoColor=white[Kubernetes, height={badge-height}]
+image:https://img.shields.io/badge/Terraform-7B42BC.svg?style={badge-style}&logo=terraform&logoColor=white[Terraform, height={badge-height}]
+image:https://img.shields.io/badge/Grafana-F46800.svg?style={badge-style}&logo=grafana&logoColor=white[Grafana, height={badge-height}]
+image:https://img.shields.io/badge/Netlify-00C7B7.svg?style={badge-style}&logo=netlify&logoColor=white[Netlify, height={badge-height}]
+image:https://img.shields.io/badge/React-61DAFB.svg?style={badge-style}&logo=react&logoColor=black[React, height={badge-height}]
+image:https://img.shields.io/badge/Webpack-8DD6F9.svg?style={badge-style}&logo=webpack&logoColor=black[Webpack, height={badge-height}]
+image:https://img.shields.io/badge/PostCSS-DD3A0A.svg?style={badge-style}&logo=postcss&logoColor=white[PostCSS, height={badge-height}]
+image:https://img.shields.io/badge/ESLint-4B32C3.svg?style={badge-style}&logo=eslint&logoColor=white[ESLint, height={badge-height}]
+image:https://img.shields.io/badge/Git_Hooks-F05032.svg?style={badge-style}&logo=git&logoColor=white[Git Hooks, height={badge-height}]
+image:https://img.shields.io/badge/Ubuntu-E95420.svg?style={badge-style}&logo=ubuntu&logoColor=white[Ubuntu, height={badge-height}]
+image:https://img.shields.io/badge/Debian-A81D33.svg?style={badge-style}&logo=debian&logoColor=white[Debian, height={badge-height}]
+image:https://img.shields.io/badge/Fedora-294172.svg?style={badge-style}&logo=fedora&logoColor=white[Fedora, height={badge-height}]
+image:https://img.shields.io/badge/Arch_Linux-1793D1.svg?style={badge-style}&logo=archlinux&logoColor=white[Arch Linux, height={badge-height}]
+image:https://img.shields.io/badge/NixOS-5277C3.svg?style={badge-style}&logo=nixos&logoColor=white[NixOS, height={badge-height}]
+image:https://img.shields.io/badge/openSUSE-73BA25.svg?style={badge-style}&logo=opensuse&logoColor=white[openSUSE, height={badge-height}]
+image:https://img.shields.io/badge/Void_Linux-478061.svg?style={badge-style}&logo=voidlinux&logoColor=white[Void, height={badge-height}]
+image:https://img.shields.io/badge/Gentoo-54487A.svg?style={badge-style}&logo=gentoo&logoColor=white[Gentoo, height={badge-height}]
+image:https://img.shields.io/badge/LaTeX-008080.svg?style={badge-style}&logo=latex&logoColor=white[LaTeX, height={badge-height}]
+
+== Softies
+
+. Locales:
+.. be_BY.UTF-8: native
+.. ru_BY.UTF-8: native
+.. en_UK.UTF-8: B1
+
+== Contacts
+
+Email:: mailto:me@nadevko.cc[]
+Telegram:: https://t.me/akujasavic[@akujasavic]
+GitHub:: https://github.com/nadevko[recursion]
