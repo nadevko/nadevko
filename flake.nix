@@ -33,6 +33,12 @@
         };
       in
       {
+        devShells.default = pkgs.mkShell {
+          packages = with pkgs; [
+            nodePackages.nodejs
+            pnpm
+          ];
+        };
         formatter = treefmt.config.build.wrapper;
         checks.treefmt = treefmt.config.build.check self;
       }
