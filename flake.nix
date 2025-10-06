@@ -3,7 +3,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
 
     n = {
-      url = "github:nadevko/nabiki/v1.0";
+      url = "github:nadevko/nabiki/v1";
       inputs.nixpkgs.follows = "nixpkgs";
     };
 
