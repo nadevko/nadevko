@@ -29,4 +29,3 @@ jobs:
         id: deployment
         with:
           public_base_path: /
-          package_manager: pnpm
