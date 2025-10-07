@@ -38,6 +38,9 @@
             nodePackages.nodejs
             pnpm
           ];
+          shellHook = ''
+            echo ${pkgs.nodePackages.nodejs.version} > .nvmrc
+          '';
         };
         formatter = treefmt.config.build.wrapper;
         checks.treefmt = treefmt.config.build.check self;
