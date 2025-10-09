@@ -1,13 +1,29 @@
 import { defineConfig } from "vite";
 import htmlMinifier from "vite-plugin-html-minifier";
+import cdn from "vite-plugin-cdn-import";
 
-const isProduction = process.env.NODE_ENV === "production";
+export default defineConfig(({ mode }) => {
+  const isProduction = mode === "production";
+  const modules = [
+    {
+      name: "iconify-icon",
+      var: "Iconify",
+      path: "https://code.iconify.design/iconify-icon/3.0.1/iconify-icon.min.js",
+    },
+  ];
 
-export default defineConfig({
-  plugins: [htmlMinifier({ minify: isProduction })],
+  return {
+    plugins: [
+      isProduction && cdn({ modules }),
+      htmlMinifier({ minify: isProduction }),
+    ].filter(Boolean),
 
-  build: {
-    minify: isProduction,
-    cssMinify: isProduction,
-  },
+    build: {
+      minify: isProduction,
+      cssMinify: isProduction,
+      rolldownOptions: {
+        external: isProduction ? modules.map((mod) => mod.name) : [],
+      },
+    },
+  };
 });
