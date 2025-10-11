@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@darkobits/vite-plugin-favicons": "^0.3.3",
     "@iconify-json/twemoji": "^1.2.4",
     "@tomjs/vite-plugin-html": "^1.5.2",
     "@types/node": "^24.7.0",
