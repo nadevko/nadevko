@@ -1,17 +1,15 @@
 import { defineConfig } from "vite";
-import htmlMinifier from "vite-plugin-html-minifier";
-import Icons from "unplugin-icons/vite";
-import cdn, { type Options } from "vite-plugin-cdn-import";
+import icons from "unplugin-icons/vite";
+import html, { type NpmModule } from "@tomjs/vite-plugin-html";
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === "production";
-  const modules: Options["modules"] = [];
+  const cdnModules: NpmModule[] = isProduction ? [] : [];
 
   return {
     plugins: [
-      isProduction && cdn({ modules }),
-      htmlMinifier({ minify: isProduction }),
-      Icons({
+      html({ minify: isProduction, cdn: { modules: cdnModules } }),
+      icons({
         compiler: "web-components",
         webComponents: {
           autoDefine: true,
@@ -22,9 +20,9 @@ export default defineConfig(({ mode }) => {
     build: {
       minify: isProduction,
       cssMinify: isProduction,
-      // rolldownOptions: {
-      //   external: isProduction ? modules.map((mod) => mod.name) : [],
-      // },
+      rolldownOptions: {
+        external: cdnModules.map((mod) => mod.name),
+      },
     },
   };
 });
