@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import htmlMinifier from "vite-plugin-html-minifier";
+import Icons from 'unplugin-icons/vite'
 import cdn from "vite-plugin-cdn-import";
 
 export default defineConfig(({ mode }) => {
@@ -16,6 +17,12 @@ export default defineConfig(({ mode }) => {
     plugins: [
       isProduction && cdn({ modules }),
       htmlMinifier({ minify: isProduction }),
+      Icons({
+        compiler: 'web-components',
+        webComponents: {
+          autoDefine: true,
+        },
+      }),
     ].filter(Boolean),
 
     build: {
