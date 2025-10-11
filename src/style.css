@@ -1,11 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
-  background-image: url('./assets/bg.gif');
+  background-color: #412a34;
   background-image: image-set(url('./assets/bg.avif') type('image/avif'),
       url('./assets/bg.gif') type('image/gif'));
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  background: #00000099;
+  color: #f0f2fe;
+  text-align: center;
+  padding: 2em;
+  
+  border-radius: 1em;
+
+  outline: .2em solid rgba(0, 0, 0, 0.6);
+  outline-offset: .2em;
+
+  max-width: 90%;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  display: flex;
+  gap: .4em;
+}
+
+footer {
+  position: fixed;
+  bottom: 1em;
+  right: 1em;
+  color: #f0cbba;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+a {
+  color: #f0cbba;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+icon-twemoji-construction {
+  display: inline-block;
+  animation: flipX 1s infinite;
+  transform-origin: center;
+}
+
+@keyframes flipX {
+  50% {
+    transform: scaleX(-1);
+  }
 }

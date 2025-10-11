@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "@iconify-json/line-md": "^1.2.11",
+    "@iconify-json/twemoji": "^1.2.4",
     "@tomjs/vite-plugin-html": "^1.5.2",
     "@types/node": "^24.7.0",
     "autoprefixer": "^10.4.21",
