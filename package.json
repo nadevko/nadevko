@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@iconify-json/line-md": "^1.2.11",
     "@types/node": "^24.7.0",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
