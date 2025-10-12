@@ -1,27 +1,39 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=optional");
 
 body {
-  --static-bg: url("./assets/bg-static.png?inline");
-
   background-color: #412a34;
-  background-image:
-    image-set(
-      url("./assets/bg-animated.avif") type("image/avif"),
-      url("./assets/bg-animated.webp") type("image/webp"),
-      url("./assets/bg-animated.gif") type("image/gif")
-    ),
-    var(--static-bg);
 
-  @media (prefers-reduced-motion: reduce) {
-    & {
-      background-image: var(--static-bg);
+  &::before {
+    --static-bg: image-set(
+      url("./assets/bg-static.avif") type("image/avif"),
+      url("./assets/bg-static.webp") type("image/webp"),
+      url("./assets/bg-static.png") type("image/png")
+    );
+
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    background-color: #412a34;
+    background-image: var(--static-bg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (prefers-reduced-motion: no-preference) {
+      background-image:
+        image-set(
+          url("./assets/bg-animated.avif") type("image/avif"),
+          url("./assets/bg-animated.webp") type("image/webp"),
+          url("./assets/bg-animated.gif") type("image/gif")
+        ),
+        var(--static-bg);
+    }
+
+    @media (pointer: coarse) and (hover: none) {
+      position: absolute;
     }
   }
-
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-attachment: fixed;
-  background-size: cover;
 }
 
 main {
@@ -30,19 +42,18 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background: #00000099;
+  background: #0009;
   color: #f0f2fe;
   text-align: center;
   padding: 2em;
 
   border-radius: 1em;
-
   outline: 0.2em solid rgba(0, 0, 0, 0.6);
   outline-offset: 0.2em;
 
   max-width: 90%;
   box-sizing: border-box;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway", system-ui, sans-serif;
 }
 
 h1 {
