@@ -5,9 +5,11 @@ body {
 
   background-color: #412a34;
   background-image:
-    image-set(url("./assets/bg-animated.avif") type("image/avif"),
+    image-set(
+      url("./assets/bg-animated.avif") type("image/avif"),
       url("./assets/bg-animated.webp") type("image/webp"),
-      url("./assets/bg-animated.gif") type("image/gif")),
+      url("./assets/bg-animated.gif") type("image/gif")
+    ),
     var(--static-bg);
 
   @media (prefers-reduced-motion: reduce) {
