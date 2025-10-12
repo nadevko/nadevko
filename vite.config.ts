@@ -1,7 +1,7 @@
 import { defineConfig } from "vite";
 import icons from "unplugin-icons/vite";
 import html, { type NpmModule } from "@tomjs/vite-plugin-html";
-import { faviconsPlugin as favicons } from '@darkobits/vite-plugin-favicons';
+import { faviconsPlugin as favicons } from "@darkobits/vite-plugin-favicons";
 
 export default defineConfig(({ mode }) => {
   const isProduction = mode === "production";
@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
       favicons({
         icons: {
           favicons: {
-            source: 'src/assets/icon.avif',
+            source: "src/assets/icon.avif",
           },
         },
         inject: true,
