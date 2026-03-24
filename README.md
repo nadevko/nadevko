@@ -5,7 +5,7 @@
 3rd-year Software Engineering student at **BSUIR** (Belarusian State University of Informatics and Radioelectronics).
 
 - Using **Linux as a daily driver for 6+ years** (Arch, Gentoo, NixOS, Debian, Ubuntu, Fedora and more).
-- Wrote *custom packages* for most of them.
+- Wrote _custom packages_ for most of them.
 - Comfy dots at [dotfiles repo](https://codeberg.org/nadevko/dotfiles) managed using [kasumi](https://codeberg.org/nadevko/kasumi).
 - For BSUIR's esoteric fans, look at the [ES-compliant template](https://codeberg.org/nadevko/dotfiles).
 
@@ -51,6 +51,7 @@
 ## Softies
 
 **Locales**
+
 - `be_BY.UTF-8` - native
 - `ru_BY.UTF-8` - native
 - `en_GB.UTF-8` - B1

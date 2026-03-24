@@ -1,33 +1,30 @@
 {
   "nodes": {
-    "n": {
+    "kasumi": {
       "inputs": {
         "nixpkgs": [
           "nixpkgs"
         ]
       },
       "locked": {
-        "lastModified": 1759327109,
-        "narHash": "sha256-R6abzc+d6+2URWt0Msltst/Yj1gtJhYIhoDBAlsmgCs=",
-        "owner": "nadevko",
-        "repo": "nabiki",
-        "rev": "f8d01a5da34568233739c1d2a9577f2486026f0d",
-        "type": "github"
+        "lastModified": 1771871028,
+        "narHash": "sha256-7wWIOhVFquqToQhsGkpZzO//tL3GtURuNybxj92yYrs=",
+        "rev": "cc0a6826be2c4c4c6a419d7b420980b5d58bebca",
+        "type": "tarball",
+        "url": "https://codeberg.org/api/v1/repos/nadevko/kasumi/archive/cc0a6826be2c4c4c6a419d7b420980b5d58bebca.tar.gz"
       },
       "original": {
-        "owner": "nadevko",
-        "ref": "v1",
-        "repo": "nabiki",
-        "type": "github"
+        "type": "tarball",
+        "url": "https://codeberg.org/api/v1/repos/nadevko/kasumi/archive/cc0a6826be2c4c4c6a419d7b420980b5d58bebca.tar.gz"
       }
     },
     "nixpkgs": {
       "locked": {
-        "lastModified": 1759417375,
-        "narHash": "sha256-O7eHcgkQXJNygY6AypkF9tFhsoDQjpNEojw3eFs73Ow=",
+        "lastModified": 1774273680,
+        "narHash": "sha256-a++tZ1RQsDb1I0NHrFwdGuRlR5TORvCEUksM459wKUA=",
         "owner": "NixOS",
         "repo": "nixpkgs",
-        "rev": "dc704e6102e76aad573f63b74c742cd96f8f1e6c",
+        "rev": "fdc7b8f7b30fdbedec91b71ed82f36e1637483ed",
         "type": "github"
       },
       "original": {
@@ -39,7 +36,7 @@
     },
     "root": {
       "inputs": {
-        "n": "n",
+        "kasumi": "kasumi",
         "nixpkgs": "nixpkgs",
         "treefmt-nix": "treefmt-nix"
       }
@@ -51,11 +48,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1758728421,
-        "narHash": "sha256-ySNJ008muQAds2JemiyrWYbwbG+V7S5wg3ZVKGHSFu8=",
+        "lastModified": 1773297127,
+        "narHash": "sha256-6E/yhXP7Oy/NbXtf1ktzmU8SdVqJQ09HC/48ebEGBpk=",
         "owner": "numtide",
         "repo": "treefmt-nix",
-        "rev": "5eda4ee8121f97b218f7cc73f5172098d458f1d1",
+        "rev": "71b125cd05fbfd78cab3e070b73544abe24c5016",
         "type": "github"
       },
       "original": {
