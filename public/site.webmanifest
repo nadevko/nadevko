@@ -1,0 +1,22 @@
+{
+  "name": "Nadeŭka webpage",
+  "short_name": "nadeŭka",
+  "start_url": "/",
+  "theme_color": "#412a34",
+  "background_color": "#412a34",
+  "display": "browser",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
