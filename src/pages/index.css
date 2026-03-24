@@ -68,7 +68,7 @@ a {
 
 [data-icon="twemoji:construction"] {
   display: inline-block;
-  /* animation: flipX 1s infinite; */
+  animation: flipX 1s infinite;
   transform-origin: center;
 }
 
